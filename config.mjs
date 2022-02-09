@@ -7,7 +7,7 @@
  * @param {SubClient} subClient Amino SubClient
  * @author IlyaDreamix
  */
-function customSocketListening(client, subClient) {
+export function customSocketListening(client, subClient) {
     client.startListeningMessages();
     client.ws.then((webSocket) => {
         /**
