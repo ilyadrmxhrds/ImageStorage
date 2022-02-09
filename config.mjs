@@ -1,4 +1,4 @@
-import { Helpers } from "../index.mjs";
+import { Helpers } from "@ilyadrmx/aminojs";
 
 const toJson = new Helpers().toJson;
 
