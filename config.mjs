@@ -1,3 +1,7 @@
+import { Helpers } from "../index.mjs";
+
+const toJson = new Helpers().toJson;
+
 /**
  * Custom Amino WebSocket listening.
  * Note: if you don't want to bother with this config and
