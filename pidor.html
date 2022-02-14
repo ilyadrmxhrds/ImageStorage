@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PIDORASINA</title>
+    </head>
+    <body>
+        <script>
+            for (let questionCount = 1; true; questionCount++) {
+                alert(`Тест номер ${questionCount}`);
+                let answer = prompt("Ты гей?\n\n1 - Да\n2 - Нет", "").toLocaleLowerCase();
+                switch (answer) {
+                    case "да":
+                        alert("Пизда");
+                        break;
+                    case "нет":
+                        alert("Пидора ответ");
+                        break;
+                    case "": default:
+                        alert("Ты че сука самый умный?");
+                        break;
+                }
+            }
+        </script>
+    </body>
+</html>
